@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b36b782f-e3bd-47c9-9248-7e410776c180" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/getBBSDetail.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/getBBS.php" afterPath="$PROJECT_DIR$/getBBSList.php" />
+      <change beforePath="$PROJECT_DIR$/getBBSDetail.php" afterPath="$PROJECT_DIR$/getBBSDetail.php" />
+      <change beforePath="$PROJECT_DIR$/getBBSList.php" afterPath="$PROJECT_DIR$/getBBSList.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,13 +59,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="getBBSList.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="getBBSList.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/getBBSList.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="28" />
+            <state relative-caret-position="589">
+              <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
               <folding>
-                <marker date="1522314004343" expanded="true" signature="375:464" ph="select bbs.i... bbs" />
+                <marker date="1522315767603" expanded="true" signature="375:464" ph="select bbs.i... bbs" />
               </folding>
             </state>
           </provider>
@@ -75,17 +74,17 @@
       <file leaf-file-name="getBBSDetail.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getBBSDetail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            <state relative-caret-position="228">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="31" selection-end-column="5" />
               <folding>
-                <marker date="1522314290021" expanded="true" signature="290:535" ph="select a.id,... *" />
-                <marker date="1522314290021" expanded="true" signature="469:501" ph="select * fro... bbs" />
+                <marker date="1522315704818" expanded="true" signature="290:535" ph="select a.id,... *" />
+                <marker date="1522315704818" expanded="true" signature="469:501" ph="select * fro... bbs" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -109,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -147,11 +146,11 @@
         <option value="$PROJECT_DIR$/getBBS.php" />
         <option value="$PROJECT_DIR$/update_img.php" />
         <option value="$PROJECT_DIR$/db_con.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/getBBSList.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/09dd59de-874e-4965-a13c-c8f8834908eb/console.sql" />
-        <option value="$PROJECT_DIR$/getBBSDetail.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/getBBSDetail.php" />
+        <option value="$PROJECT_DIR$/getBBSList.php" />
       </list>
     </option>
   </component>
@@ -243,12 +242,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522294288949</updated>
-      <workItem from="1522294290164" duration="7923000" />
+      <workItem from="1522294290164" duration="9371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7923000" />
+    <option name="totallyTimeSpent" value="9371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -332,14 +331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/09dd59de-874e-4965-a13c-c8f8834908eb/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -348,32 +339,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getBBSList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="28" />
-          <folding>
-            <marker date="1522314004343" expanded="true" signature="375:464" ph="select bbs.i... bbs" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getBBSDetail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-          <folding>
-            <marker date="1522314290021" expanded="true" signature="290:535" ph="select a.id,... *" />
-            <marker date="1522314290021" expanded="true" signature="469:501" ph="select * fro... bbs" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6" lean-forward="true" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getBBSDetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <marker date="1522315704818" expanded="true" signature="290:535" ph="select a.id,... *" />
+            <marker date="1522315704818" expanded="true" signature="469:501" ph="select * fro... bbs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getBBSList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding>
+            <marker date="1522315767603" expanded="true" signature="375:464" ph="select bbs.i... bbs" />
+          </folding>
         </state>
       </provider>
     </entry>

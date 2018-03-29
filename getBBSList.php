@@ -27,8 +27,14 @@ try {
     $stat->execute();
     $result = $stat->fetchAll(PDO::FETCH_ASSOC);
 
-    $response['code'] = 200;
-    $response['result'] = $result;
+    $isBBS = $stat->rowCount();
+    if ($isBBS > 0){
+        $response['code'] = 200;
+        $response['result'] = $result;
+    } else {
+        $response['code'] = 201;
+        $response['msg'] = 'none';
+    }
 } catch (PDOException $e){
     $response['code'] = 502;
     $response['msg'] = 'db error!';
