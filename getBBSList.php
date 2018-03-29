@@ -20,7 +20,7 @@ if ($page === 0 || $limit === 0){
 $offset = ($page-1)*$limit;
 
 try {
-    $sql = 'select bbs.id,bbs.title,bbs.contents,bbs.img_path,bbs.updated_at,u.email as \'author_email\',u.nickname as \'author_name\',u.updated_at as \'user_created_at\' from bbs JOIN users u ON bbs.user_id = u.id ORDER BY bbs.id desc LIMIT :limit OFFSET :offset';
+    $sql = 'select id,title,img_path,updated_at from bbs ORDER BY id desc LIMIT :limit OFFSET :offset';
     $stat = $pdo->prepare($sql);
     $stat->bindValue(':limit', intval($limit), PDO::PARAM_INT);
     $stat->bindValue(':offset', intval($offset), PDO::PARAM_INT);
